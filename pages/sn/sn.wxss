@@ -1,0 +1,46 @@
+swiper image {
+  width: 100%;
+  height: 100%;
+  margin-right: 20px;
+}
+
+swiper {
+  height: 200px;
+}
+
+.item-img {
+  height: 30px;
+  width: 30px;
+  
+  margin-left: 20px;
+}
+
+.item-img-custom{
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  background-color: #f00;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 22px;
+}
+
+.item-title {
+  line-height: 30px;
+  margin-left: 20px;
+  flex: 1;
+}
+
+.card {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 4px 1px 1px #ccc;
+  margin: 8px;
+  position: relative;
+}

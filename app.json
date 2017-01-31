@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/sn/sn",
+     "pages/n/n",
+    
+    "pages/detail/detail",
+    "pages/index/index",
+    "pages/logs/logs",
+     "pages/s/s"
+   
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "S love n",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/s/s",
+        "text": "S",
+        "iconPath": "images/s_unselected.png",
+        "selectedIconPath": "images/s_selected.png"
+      },
+      {
+        "pagePath": "pages/sn/sn",
+        "text": "Sloven",
+        "iconPath": "images/love_unselected.png",
+        "selectedIconPath": "images/love_selected.png"
+      },
+      {
+        "pagePath": "pages/n/n",
+        "text": "N",
+        "iconPath": "images/n_unselected.png",
+        "selectedIconPath": "images/n_selected.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+.s-page {
+  background-color: #f2f2f2;
+}
+
+.s-item {
+  background-color: white;
+  margin: 30rpx;
+  padding-bottom: 5px;
+  border-radius: 3%;
+  box-shadow: 3px 6px 3px #888;
+}
+
+.s-item:first-child {
+  margin-top: 0;
+}
+
+.s-title {
+  padding: 3px 5px;
+  font-size: 16px;
+}
+
+.s-img {
+  width: 100%;
+  height: 180px;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  overflow: hidden;
+}
+
+.s-content {
+  color: #888;
+  font-size: 12px;
+  padding: 8px;
+  line-height: 16px;
+  height: 40px;
+  text-indent: 2em;
+  overflow: hidden;
+}

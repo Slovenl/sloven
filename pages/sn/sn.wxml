@@ -1,0 +1,37 @@
+<!--<block wx:if="{{showLoading}}">
+  <view class="page-loading">
+    <text class="weui-loading" />
+    <text class="loading-text">玩命加载中</text>-->
+
+<!--<loading>玩命加载中...</loading>-->
+
+<!--</view>-->
+
+<!--</block>
+<block wx:else>-->
+<view style="background-color:#f2f2f2;">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" mode="aspectFill" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <block wx:for="{{storylist}}">
+    <navigator class="card" url="../detail/detail?id={{item.id}}">
+      <image src="{{item.imgurl}}" class="item-img"></image>
+      <view class="item-title">
+        {{item.title}}
+      </view>
+    </navigator>
+  </block>
+
+   <navigator class="card" url="../detail/detail?id={{item.id}}">
+      <image src="../../images/n_selected.png" class="item-img"></image>
+      <view class="item-title">
+        怎么回事，我很惆怅
+      </view>
+    </navigator>
+</view>
+
+<!--</block>-->

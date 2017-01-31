@@ -1,0 +1,16 @@
+<view class="s-page">
+  <navigator url="../detail/detail" class="s-item">
+    <image src="http://www.slovenl.cn/images/girl3.jpeg" class="s-img" mode="aspectFill"></image>
+    <view class="s-title">测试标题</view>
+    <view class="s-content">测试的内容测试的内容测试的内容测试的内容测试的内容测试的内容测试的内容测试的内容测试的内容测试的内容</view>
+  </navigator>
+  <block wx:for="{{news}}">
+
+    <!--item-->
+    <navigator url="../detail/detail" class="s-item">
+      <image src="{{item.spic}}" class="s-img" mode="aspectFill"></image>
+      <view class="s-title">{{item.title}}</view>
+      <view class="s-content">{{item.detailpageurl}}</view>
+    </navigator>
+  </block>
+</view>
